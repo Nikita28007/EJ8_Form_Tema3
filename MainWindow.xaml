@@ -14,8 +14,8 @@
             <Button Content="Aceptar" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,5" Width="75"/>
             <Button Content="Cancelar" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10,0,5,5" Width="75"/>
         </StackPanel>
-        <Image Source="foto.jpg" HorizontalAlignment="Right" Width="190" Height="300" Margin="0,0,7,0" ></Image>
-        
+        <Image Source="foto.jpg" HorizontalAlignment="Right" Width="185" Height="auto" Margin="10,0,10,0" ></Image>
+
         <Border Background="LightBlue" BorderBrush="Black" BorderThickness="3" Width="580" Height="110" CornerRadius="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,66,0,0">
             <Border.Effect>
                 <DropShadowEffect/>
@@ -62,13 +62,13 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="231*"></ColumnDefinition>
                     <ColumnDefinition Width="300*"/>
-                   
+
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
 
-           
+
                 <StackPanel Width="258" HorizontalAlignment="Left" Grid.ColumnSpan="2">
                     <GroupBox Header="Aficiones" Width="200" HorizontalAlignment="Left" Margin="10,10,0,0">
                         <StackPanel>
