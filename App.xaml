@@ -4,6 +4,65 @@
              xmlns:local="clr-namespace:EJ8_Form_Tema3"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <Style TargetType="Image">
+            <Setter Property="Source" Value="info.png"/>
+            <Setter Property="Width" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+
+        </Style>
+
+        <Style TargetType="Image" x:Key="man">
+            <Setter Property="Source" Value="foto.jpg"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Width" Value="185"/>
+            <Setter Property="Height" Value="auto"/>
+            <Setter Property="Margin" Value="10,0,10,0"/>
+
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="15"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+            <Setter Property="Width" Value="465"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Text" Value=""/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Width" Value="75"/>
+
+        </Style>
+
+<!-- 
+        <StackPanel x:Key="datosP">
+            
+            <StackPanel.Resources>
+                <Style TargetType="TextBlock">
+
+                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                    <Setter Property="TextWrapping" Value="Wrap"/>
+                    <Setter Property="VerticalAlignment" Value="Top"/>
+                    <Setter Property="Margin" Value="0,0,0,5"/>
+                    
+            
+                </Style>
+                
+            </StackPanel.Resources>
+            
+        </StackPanel>
+        -->
+        
+        
+        <Style TargetType="StackPanel" x:Key="datosP">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="16,26,6,26"/>
+            <Setter Property="Grid.Column" Value="0"/>
+            <Setter Property="Height" Value="58"/>
+          
+        </Style>
+
     </Application.Resources>
 </Application>
