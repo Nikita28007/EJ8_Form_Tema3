@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" MinHeight="450" MinWidth="800" Height="450" Width="792">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" FontSize="40" TextWrapping="Wrap" Text="Fromulario" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" FontSize="20" TextWrapping="Wrap" Text="Nikita Galeev" VerticalAlignment="Bottom"/>
+        <TextBlock Style="{StaticResource form}"  Text="Fromulario" />
+        <TextBlock  HorizontalAlignment="Left" FontSize="20" TextWrapping="Wrap" Text="Nikita Galeev" VerticalAlignment="Bottom"/>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Height="30" VerticalAlignment="Bottom">
             <Button Content="Aceptar" Margin="0,0,0,5"/>
@@ -16,7 +16,7 @@
         </StackPanel>
         <Image Style="{StaticResource man}"/>
 
-        <Border Background="LightBlue" BorderBrush="Black" BorderThickness="3"  Width="583" Height="110" CornerRadius="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,66,0,0">
+        <Border Style="{StaticResource borde1}">
             <Border.Effect>
                 <DropShadowEffect/>
             </Border.Effect>
@@ -33,10 +33,10 @@
                 </Grid.RowDefinitions>
 
 
-                <StackPanel Style="{StaticResource datosP}" >
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Margin="0,0,0,5"/>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Edad" VerticalAlignment="Top" Margin="0,0,0,5"/>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Dirección" VerticalAlignment="Top" />
+                <StackPanel VerticalAlignment="Center" Grid.Column="0" Height="58" Margin="16,26,6,26" >
+                    <TextBlock Style="{StaticResource datosP}"  Text="Nombre" />
+                    <TextBlock  Style="{StaticResource datosP}"  Text="Edad" />
+                    <TextBlock  Style="{StaticResource datosP}"  Text="Dirección"  />
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="0,28" Height="54">

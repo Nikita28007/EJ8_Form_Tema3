@@ -56,13 +56,37 @@
         -->
         
         
-        <Style TargetType="StackPanel" x:Key="datosP">
-            <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Margin" Value="16,26,6,26"/>
-            <Setter Property="Grid.Column" Value="0"/>
-            <Setter Property="Height" Value="58"/>
-          
+        <Style TargetType="TextBlock" x:Key="datosP">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+
         </Style>
 
+        <Style TargetType="Border" x:Key="borde1">
+            <Setter Property="Background" Value="LightBlue"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="Width" Value="583"/>
+            <Setter Property="Height" Value="110"/>
+            <Setter Property="CornerRadius" Value="3"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Margin" Value="5,66,0,0"/>
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="form">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+
+           
+
+
+        </Style>
+        
     </Application.Resources>
 </Application>
